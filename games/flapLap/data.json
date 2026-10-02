@@ -1,0 +1,171 @@
+{
+  "id" : "flapLap",
+  "name" : "Flap Lap",
+  "series" : "other",
+  "priority" : -2,
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/chirp",
+    "name" : "chirp",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/flap",
+    "name" : "flap",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/whistle1",
+    "name" : "whistle1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/whistle2",
+    "name" : "whistle2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_flapping",
+    "name" : "flapping",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4.0,
+    "cues" : [ {
+      "id" : "*/flap",
+      "beat" : 1.4E-45,
+      "duration" : 1.0,
+      "semitone" : 3
+    }, {
+      "id" : "*/flap",
+      "beat" : 1.0,
+      "duration" : 1.0,
+      "semitone" : 3
+    }, {
+      "id" : "*/flap",
+      "beat" : 2.0,
+      "duration" : 1.0,
+      "semitone" : 3
+    }, {
+      "id" : "*/flap",
+      "beat" : 3.0,
+      "duration" : 1.0,
+      "semitone" : 3
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_tree",
+    "name" : "tree",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/whistle1",
+      "beat" : 1.4E-45,
+      "duration" : 1.0
+    }, {
+      "id" : "*/chirp",
+      "beat" : 1.0,
+      "semitone" : 24,
+      "track" : 1
+    }, {
+      "id" : "*/flap",
+      "beat" : 1.0,
+      "semitone" : 3
+    }, {
+      "id" : "*/flap",
+      "beat" : 1.5,
+      "semitone" : 3
+    }, {
+      "id" : "*/chirp",
+      "beat" : 2.0,
+      "semitone" : 24,
+      "track" : 1
+    }, {
+      "id" : "*/flap",
+      "beat" : 2.0,
+      "semitone" : 3
+    }, {
+      "id" : "*/flap",
+      "beat" : 2.5,
+      "semitone" : 3
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_rocks",
+    "name" : "rocks",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/whistle2",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/whistle1",
+      "beat" : 0.5
+    }, {
+      "id" : "*/whistle2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/whistle1",
+      "beat" : 1.5
+    }, {
+      "id" : "*/chirp",
+      "beat" : 2.0,
+      "semitone" : 24,
+      "track" : 1
+    }, {
+      "id" : "*/flap",
+      "beat" : 2.0,
+      "semitone" : 3
+    }, {
+      "id" : "*/flap",
+      "beat" : 2.5,
+      "semitone" : 3
+    }, {
+      "id" : "*/chirp",
+      "beat" : 3.0,
+      "semitone" : 24,
+      "track" : 1
+    }, {
+      "id" : "*/flap",
+      "beat" : 3.0,
+      "semitone" : 3
+    }, {
+      "id" : "*/flap",
+      "beat" : 3.5,
+      "semitone" : 3
+    }, {
+      "id" : "*/chirp",
+      "beat" : 4.0,
+      "semitone" : 24,
+      "track" : 1
+    }, {
+      "id" : "*/flap",
+      "beat" : 4.0,
+      "semitone" : 3
+    }, {
+      "id" : "*/flap",
+      "beat" : 4.5,
+      "semitone" : 3
+    }, {
+      "id" : "*/chirp",
+      "beat" : 5.0,
+      "semitone" : 24,
+      "track" : 1
+    }, {
+      "id" : "*/flap",
+      "beat" : 5.0,
+      "semitone" : 3
+    }, {
+      "id" : "*/flap",
+      "beat" : 5.5,
+      "semitone" : 3
+    } ],
+    "subtext" : ""
+  } ]
+}

@@ -1,0 +1,251 @@
+{
+  "id" : "loveLanguage",
+  "name" : "Love Language",
+  "series" : "other",
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/f1",
+    "name" : "Fuzzy - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.063
+  }, {
+    "type" : "cue",
+    "id" : "*/f2",
+    "name" : "Fuzzy - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.028
+  }, {
+    "type" : "cue",
+    "id" : "*/b1",
+    "name" : "Buzzy - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/b2",
+    "name" : "Buzzy - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/kiss",
+    "name" : "kiss",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/bt1",
+    "name" : "Buzzy triple - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/bt2",
+    "name" : "Buzzy triple - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/trip1",
+    "name" : "triple kiss - 1 & 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/trip3",
+    "name" : "triple kiss - 3",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/fl1",
+    "name" : "Fuzzy long - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/fl2",
+    "name" : "Fuzzy long - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.057
+  }, {
+    "type" : "cue",
+    "id" : "*/fl3",
+    "name" : "whistle - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.014
+  }, {
+    "type" : "cue",
+    "id" : "*/fl4",
+    "name" : "whistle - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "earliness" : 0.006
+  }, {
+    "type" : "cue",
+    "id" : "*/long1",
+    "name" : "long kiss - A",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true,
+    "useTimeStretching" : false,
+    "loops" : true
+  }, {
+    "type" : "cue",
+    "id" : "*/long2",
+    "name" : "long kiss - B",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "stretchable" : true,
+    "useTimeStretching" : false,
+    "loops" : true
+  }, {
+    "type" : "cue",
+    "id" : "*/longrelease",
+    "name" : "long kiss end",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "randomCue",
+    "id" : "*_randomlongkiss",
+    "name" : "random long kiss",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/long1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/long2",
+      "beat" : 1.4E-45
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_fuzzy",
+    "name" : "Fuzzy",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/f1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/f2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/kiss",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_buzzy",
+    "name" : "Buzzy",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/b1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/b2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/kiss",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_fuzzylong",
+    "name" : "Fuzzy - long",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/fl1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/fl2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/fl3",
+      "beat" : 1.0
+    }, {
+      "id" : "*/fl4",
+      "beat" : 1.5
+    }, {
+      "id" : "*_randomlongkiss",
+      "beat" : 2.5
+    }, {
+      "id" : "*/longrelease",
+      "beat" : 3.5
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_buzzytrip",
+    "name" : "Buzzy - triple",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/bt1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/bt2",
+      "beat" : 0.5
+    }, {
+      "id" : "*/bt1",
+      "beat" : 1.0
+    }, {
+      "id" : "*/bt2",
+      "beat" : 1.5
+    }, {
+      "id" : "*/trip1",
+      "beat" : 2.0
+    }, {
+      "id" : "*/trip1",
+      "beat" : 2.5
+    }, {
+      "id" : "*/trip3",
+      "beat" : 3.0
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_both",
+    "name" : "both",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/f1",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/b1",
+      "beat" : 0.0,
+      "track" : 1
+    }, {
+      "id" : "*/f2",
+      "beat" : 1.0
+    }, {
+      "id" : "*/b2",
+      "beat" : 1.0,
+      "track" : 1
+    }, {
+      "id" : "*/kiss",
+      "beat" : 2.0
+    } ],
+    "subtext" : ""
+  } ]
+}
