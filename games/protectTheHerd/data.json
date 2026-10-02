@@ -1,0 +1,188 @@
+{
+  "id" : "protectTheHerd",
+  "name" : "Protect the Herd",
+  "series" : "other",
+  "objects" : [ {
+    "type" : "pattern",
+    "id" : "*_ballScoop",
+    "name" : "olevadon",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/ball",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/hit",
+      "beat" : 1.0
+    }, {
+      "id" : "*/land",
+      "beat" : 3.0,
+      "volume" : 50
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_wolfhit",
+    "name" : "wolves",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/growl",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/wolf1",
+      "beat" : 1.0
+    }, {
+      "id" : "*/wolf2",
+      "beat" : 1.5
+    }, {
+      "id" : "*/wolfhit",
+      "beat" : 2.5
+    }, {
+      "id" : "*/wolfhit",
+      "beat" : 3.0
+    }, {
+      "id" : "*/wolfwhimper",
+      "beat" : 2.5,
+      "track" : 1
+    }, {
+      "id" : "*/wolfwhimper2",
+      "beat" : 3.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "pattern",
+    "id" : "*_slam",
+    "name" : "slam",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/growl",
+      "beat" : 1.4E-45
+    }, {
+      "id" : "*/bigwolf1",
+      "beat" : 1.0
+    }, {
+      "id" : "*/bigwolf2",
+      "beat" : 2.0
+    }, {
+      "id" : "*/ball",
+      "beat" : 2.0,
+      "track" : 1
+    }, {
+      "id" : "*/pass",
+      "beat" : 3.0
+    }, {
+      "id" : "*/charge",
+      "beat" : 3.0,
+      "track" : 1
+    }, {
+      "id" : "*/powerhit",
+      "beat" : 4.0
+    }, {
+      "id" : "*/wolfwhimper2",
+      "beat" : 4.0,
+      "track" : 1
+    } ],
+    "subtext" : ""
+  }, {
+    "type" : "cue",
+    "id" : "*/ball",
+    "name" : "ball",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/hit",
+    "name" : "hit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0
+  }, {
+    "type" : "cue",
+    "id" : "*/wolf1",
+    "name" : "wolf1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/wolf2",
+    "name" : "wolf2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/wolfhit",
+    "name" : "wolfhit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/wolfwhimper",
+    "name" : "wolfwhimper",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/wolfwhimper2",
+    "name" : "wolfwhimper2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/land",
+    "name" : "land",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/growl",
+    "name" : "growl",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "baseBpm" : 120.0
+  }, {
+    "type" : "cue",
+    "id" : "*/powerhit",
+    "name" : "power hit",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5,
+    "earliness" : 0.072
+  }, {
+    "type" : "cue",
+    "id" : "*/charge",
+    "name" : "charge",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 1.0,
+    "baseBpm" : 98.0
+  }, {
+    "type" : "cue",
+    "id" : "*/pass",
+    "name" : "pass",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/bigwolf1",
+    "name" : "big wolf - 1",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  }, {
+    "type" : "cue",
+    "id" : "*/bigwolf2",
+    "name" : "big wolf - 2",
+    "deprecatedIDs" : [ ],
+    "subtext" : "",
+    "duration" : 0.5
+  } ]
+}
