@@ -1,0 +1,105 @@
+{
+  "id" : "conductor",
+  "name" : "Conductor",
+  "series" : "other",
+  "group": "Rhythm Nights with Tappa",
+  "groupDefault": false,
+  "Priority": 3,
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/meGood",
+    "name" : "me good",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav",
+    "responseIDs": [
+        "*/you"
+      ]
+  }, {
+    "type" : "cue",
+    "id" : "*/meBad",
+    "name" : "me bad",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav",
+    "responseIDs": [
+        "*/you"
+      ]
+  }, {
+    "type" : "cue",
+    "id" : "*/downConductor",
+    "name" : "down cass",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav",
+    "responseIDs": [
+        "*/downDrum"
+      ]
+  }, {
+    "type" : "cue",
+    "id" : "*/upConductor",
+    "name" : "up cass",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav",
+    "responseIDs": [
+        "*/upDrum"
+      ]
+  }, {
+    "type" : "cue",
+    "id" : "*/leftConductor",
+    "name" : "left cass",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav",
+    "responseIDs": [
+        "*/leftDrum"
+      ]
+  }, {
+    "type" : "cue",
+    "id" : "*/rightConductor",
+    "name" : "right cass",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav",
+    "responseIDs": [
+        "*/rightDrum"
+      ]
+  }, {
+    "type" : "cue",
+    "id" : "*/downDrum",
+    "name" : "down drum",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/upDrum",
+    "name" : "up drum",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/leftDrum",
+    "name" : "left drum",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/rightDrum",
+    "name" : "right drum",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/you",
+    "name" : "you",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "earliness" : 0.118,
+    "fileExtension" : "wav"
+  } ]
+}

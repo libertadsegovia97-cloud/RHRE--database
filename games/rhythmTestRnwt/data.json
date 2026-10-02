@@ -1,0 +1,82 @@
+{
+  "id": "rhythmTestRnwt",
+  "name": "Rhythm Test (RNwT)",
+  "series": "other",
+  "group": "Rhythm Nights with Tappa",
+  "groupDefault": true,
+  "Priority": 5,
+  "objects": [ {
+    "type": "cue",
+    "id": "*/cueLoop",
+    "deprecatedIDs": [],
+    "name": "wait",
+    "duration" : 1.0,
+    "fileExtension" : "wav"
+  }, {
+    "type": "cue",
+    "id": "*/cueHit",
+    "deprecatedIDs": [],
+    "name": "hit cue",
+    "duration" : 1.0,
+    "fileExtension" : "wav"
+  }, {
+    "type": "cue",
+    "id": "*/hitBoard",
+    "deprecatedIDs": [],
+    "name": "board hit",
+    "duration" : 1.0,
+    "fileExtension" : "wav"
+  }, {
+    "type": "cue",
+    "id": "*/hitYOU",
+    "deprecatedIDs": [],
+    "name": "YOU hit",
+    "duration" : 1.0,
+    "fileExtension" : "wav"
+  }, {
+    "type": "cue",
+    "id": "*/skillStarHit",
+    "deprecatedIDs": [],
+    "name": "RNwT [YELLOW]★[] skill star",
+    "duration" : 1.0,
+    "fileExtension" : "wav"
+  }, {
+    "type": "cue",
+    "id": "*/skillStarMiss",
+    "deprecatedIDs": [],
+    "name": "RNwT skill star miss",
+    "duration" : 1.0,
+    "fileExtension" : "wav"
+  }, {
+    "type": "pattern",
+    "id": "*_finalHit",
+    "deprecatedIDs": [],
+    "name": "final hit",
+    "cues": [
+      {
+        "id": "*/cueHit",
+        "beat": 0.0
+      }, {
+        "id": "*/hitBoard",
+        "beat": 1.0
+      }, {
+        "id": "*/hitYOU",
+        "track": 1,
+        "beat": 1.0
+      } ]
+  }, {
+    "type": "keepTheBeat",
+    "id": "*/waitLoop",
+    "deprecatedIDs": [],
+    "name": "wait loop",
+    "defaultDuration": 2.0,
+    "cues": [
+      {
+        "id": "*/cueLoop",
+        "beat": 0.0
+      }, {
+        "id": "*/cueLoop",
+        "beat": 1.0
+      } ]
+  } ]
+}

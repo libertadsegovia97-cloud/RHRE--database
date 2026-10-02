@@ -1,0 +1,145 @@
+{
+  "id" : "pizzaSlicer",
+  "name" : "Pizza Slicer",
+  "series" : "other",
+  "group": "Rhythm Nights with Tappa",
+  "groupDefault": false,
+  "Priority": 4,
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/cheese",
+    "name" : "cheese",
+    "deprecatedIDs" : [ ],
+    "duration" : 1,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/olive1",
+    "name" : "olive - 1",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/olive2",
+    "name" : "olive - 2",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/pepperoni1",
+    "name" : "pepperoni - 1",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/pepperoni2",
+    "name" : "pepperoni - 2",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/pepperoni3",
+    "name" : "pepperoni - 3",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/pepperoni4",
+    "name" : "pepperoni - 4",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/slice",
+    "name" : "slice",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/throw",
+    "name" : "throw",
+    "deprecatedIDs" : [ ],
+    "duration" : 1,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "pattern",
+    "id" : "*_sliceCheese",
+    "name" : "cheese",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/cheese",
+      "beat" : 0,
+      "track" : 1
+    }, {
+      "id" : "*/throw",
+      "beat" : 1
+    }, {
+      "id" : "*/slice",
+      "beat" : 2
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_sliceOlive",
+    "name" : "olive",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/olive1",
+      "beat" : 0,
+      "track" : 1
+    }, {
+      "id" : "*/olive2",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/throw",
+      "beat" : 1
+    }, {
+      "id" : "*/slice",
+      "beat" : 2
+    }, {
+      "id" : "*/slice",
+      "beat" : 2.5
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_slicePepperoni",
+    "name" : "pepperoni",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/pepperoni1",
+      "beat" : 0,
+      "track" : 1
+    }, {
+      "id" : "*/pepperoni2",
+      "beat" : 0.5,
+      "track" : 1
+    }, {
+      "id" : "*/pepperoni3",
+      "beat" : 1,
+      "track" : 1
+    }, {
+      "id" : "*/pepperoni4",
+      "beat" : 1.5,
+      "track" : 1
+    }, {
+      "id" : "*/throw",
+      "beat" : 1
+    }, {
+      "id" : "*/slice",
+      "beat" : 2
+    }, {
+      "id" : "*/slice",
+      "beat" : 2.5
+    }, {
+      "id" : "*/slice",
+      "beat" : 3
+    } ]
+  } ]
+}

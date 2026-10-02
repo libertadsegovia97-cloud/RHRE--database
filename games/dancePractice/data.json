@@ -1,0 +1,135 @@
+{
+  "id" : "dancePractice",
+  "name" : "Dance Practice",
+  "series" : "other",
+  "group": "Rhythm Nights with Tappa",
+  "groupDefault": false,
+  "Priority": 1,
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/squeak1",
+    "name" : "squeak 1",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/squeak2",
+    "name" : "squeak 2",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/tap",
+    "name" : "tap",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "pattern",
+    "id" : "*_quaterCue",
+    "name" : "quarter note cue",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/squeak1",
+      "beat" : 0
+    }, {
+      "id" : "*/squeak1",
+      "beat" : 1
+    }, {
+      "id" : "*/squeak1",
+      "beat" : 2
+    }, {
+      "id" : "*/squeak2",
+      "beat" : 3
+    } ]
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_quarterTap",
+    "name" : "quarter note tapping",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4,
+    "cues" : [ {
+      "id" : "*/tap",
+      "beat" : 0
+    }, {
+      "id" : "*/tap",
+      "beat" : 1
+    }, {
+      "id" : "*/tap",
+      "beat" : 2
+    }, {
+      "id" : "*/tap",
+      "beat" : 3
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_halfCue",
+    "name" : "half note cue",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/squeak1",
+      "beat" : 0
+    }, {
+      "id" : "*/squeak2",
+      "beat" : 2
+    } ]
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_halfTap",
+    "name" : "half note tapping",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4,
+    "cues" : [ {
+      "id" : "*/tap",
+      "beat" : 0
+    }, {
+      "id" : "*/tap",
+      "beat" : 2
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_dottedCue",
+    "name" : "dotted-quarter note cue",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/squeak1",
+      "beat" : 0
+    }, {
+      "id" : "*/squeak1",
+      "beat" : 1.5
+    }, {
+      "id" : "*/squeak2",
+      "beat" : 3
+    } ]
+  }, {
+    "type" : "keepTheBeat",
+    "id" : "*_dottedTap",
+    "name" : "dotted-quarter note tapping",
+    "deprecatedIDs" : [ ],
+    "defaultDuration" : 4,
+    "cues" : [ {
+      "id" : "*/tap",
+      "beat" : 0
+    }, {
+      "id" : "*/tap",
+      "beat" : 1.5
+    }, {
+      "id" : "*/tap",
+      "beat" : 3
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_stop",
+    "name" : "stop",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/squeak1",
+      "beat" : 0
+    }, {
+      "id" : "*/squeak2",
+      "beat" : 0.5
+    } ]
+  } ]
+}

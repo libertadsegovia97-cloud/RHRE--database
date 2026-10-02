@@ -1,0 +1,56 @@
+{
+  "id" : "crackedCookie",
+  "name" : "Cracked Cookie",
+  "series" : "other",
+  "group": "Rhythm Nights with Tappa",
+  "groupDefault": false,
+  "Priority": 2,
+  "objects" : [ {
+    "type" : "cue",
+    "id" : "*/crack",
+    "name" : "crack",
+    "deprecatedIDs" : [ ],
+    "duration" : 0.5,
+    "earliness" : 0.028,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/left",
+    "name" : "left drop",
+    "deprecatedIDs" : [ ],
+    "duration" : 1,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "cue",
+    "id" : "*/right",
+    "name" : "right drop",
+    "deprecatedIDs" : [ ],
+    "duration" : 1,
+    "earliness" : 0.01,
+    "fileExtension" : "wav"
+  }, {
+    "type" : "pattern",
+    "id" : "*_leftDrop",
+    "name" : "left",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/left",
+      "beat" : 0
+    }, {
+      "id" : "*/crack",
+      "beat" : 1
+    } ]
+  }, {
+    "type" : "pattern",
+    "id" : "*_rightDrop",
+    "name" : "right",
+    "deprecatedIDs" : [ ],
+    "cues" : [ {
+      "id" : "*/right",
+      "beat" : 0
+    }, {
+      "id" : "*/crack",
+      "beat" : 1
+    } ]
+  } ]
+}
